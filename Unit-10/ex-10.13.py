@@ -1,0 +1,5 @@
+file = open(r"D:\PythonFiles\PythonFile.txt","r")
+print (file.readline())
+print (file.readline())
+print (file.readline(10))
+file.close()

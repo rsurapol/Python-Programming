@@ -1,0 +1,5 @@
+file = open(r"D:\PythonFiles\NewFile.txt","r")
+print ("ตำแหน่งตัวชี้ปัจจุบัน คือ", file.tell())
+print (file.read(6))
+print ("ตำแหน่งตัวชี้ปัจจุบัน คือ", file.tell())
+file.close()

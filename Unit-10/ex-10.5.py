@@ -1,0 +1,6 @@
+file = open(r"D:\PythonFiles\ThaiLang.txt", "r")
+print ("เรียกใช้งานโหมดไฟล์ =", file.mode)
+print ("เรียกใช้งานไฟล์ชื่อ =", file.name)
+print ("สถานะของไฟล์ =", file.closed)
+file.close()
+print ("สถานะของไฟล์ =", file.closed)

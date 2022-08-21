@@ -1,0 +1,6 @@
+cities = frozenset(("London", "Sheffield", "Norwich", "Leicester"))
+foods = frozenset(["Bacon", "Sausage", "Cereal", "Ham", "Bread"])
+print(cities)
+print(set(foods))
+print(type(cities))
+print(type(foods))

@@ -1,0 +1,6 @@
+print ("Hello Python", 'Hello Python programming')
+print (50)
+print ("Hello" + "Python")
+print ("Hello" + ' ' + "Python")
+print ()
+print (5*10/2)
